@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-links a {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 0px;
+  margin-right: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar-icons img {
+  margin-left: 20px;
+}
+
+.horizontal-line {
+  width: 80%;
+  height: 2px;
+  background-color: black;
+  margin: 0 auto; /* Center the line horizontally */
+}
+.main-content {
+  display: flex;
+  padding: 50px;
+}
+
+.left-content {
+  width: 70%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+.right-content img {
+  width: 70%;
+  border-radius: 190px;
+}
+.search-bar,
+.search-button {
+  display: inline-block;
+  vertical-align: top; /* Align items vertically at the top */
+  margin-top: 20px;
+}
+
+.search-bar {
+  display: inline-block;
+  align-items: start; /* Align items vertically in the search bar */
+  border: 2px solid grey;
+  background-color: whitesmoke;
+  border-radius: 25px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.search-bar input {
+  display: inline;
+  border: none;
+  outline: none;
+  flex: 1; /* This allows the input to take available space and expand */
+  margin-right: 10px; /* Add some space between input and button */
+}
+
+.search-button button {
+  display: inline;
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.search-bar,
+.search-bar input,
+.search-button button {
+}
